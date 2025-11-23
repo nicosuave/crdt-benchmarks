@@ -2,15 +2,18 @@
   "6000": {
     "Version": {
       "automerge": "3.2.0",
-      "automerge-wasm": "0.17.0"
+      "automerge-wasm": "0.17.0",
+      "yjs": "13.6.11"
     },
     "Bundle size": {
       "automerge": "2694042 bytes",
-      "automerge-wasm": "1863485 bytes"
+      "automerge-wasm": "1863485 bytes",
+      "yjs": "69124 bytes"
     },
     "Bundle size (gzipped)": {
       "automerge": "898413 bytes",
-      "automerge-wasm": "649745 bytes"
+      "automerge-wasm": "649745 bytes",
+      "yjs": "20100 bytes"
     },
     "[B1.1] Append N characters (time)": {
       "automerge": "10274 ms",
