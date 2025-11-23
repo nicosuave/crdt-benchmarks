@@ -1,0 +1,516 @@
+{
+  "6000": {
+    "Version": {
+      "automerge": "3.2.0",
+      "automerge-wasm": "0.17.0"
+    },
+    "Bundle size": {
+      "automerge": "2694042 bytes",
+      "automerge-wasm": "1863485 bytes"
+    },
+    "Bundle size (gzipped)": {
+      "automerge": "898413 bytes",
+      "automerge-wasm": "649745 bytes"
+    },
+    "[B1.1] Append N characters (time)": {
+      "automerge": "10274 ms",
+      "automerge-wasm": "229 ms"
+    },
+    "[B1.1] Append N characters (avgUpdateSize)": {
+      "automerge": "125 bytes",
+      "automerge-wasm": "121 bytes"
+    },
+    "[B1.1] Append N characters (encodeTime)": {
+      "automerge": "3 ms",
+      "automerge-wasm": "10 ms"
+    },
+    "[B1.1] Append N characters (docSize)": {
+      "automerge": "4003 bytes",
+      "automerge-wasm": "3992 bytes"
+    },
+    "[B1.1] Append N characters (memUsed)": {
+      "automerge": "8.1 kB",
+      "automerge-wasm": "1.2 kB"
+    },
+    "[B1.1] Append N characters (parseTime)": {
+      "automerge": "87 ms",
+      "automerge-wasm": "112 ms"
+    },
+    "[B1.2] Insert string of length N (time)": {
+      "automerge": "21 ms",
+      "automerge-wasm": "29 ms"
+    },
+    "[B1.2] Insert string of length N (avgUpdateSize)": {
+      "automerge": "6209 bytes",
+      "automerge-wasm": "6201 bytes"
+    },
+    "[B1.2] Insert string of length N (encodeTime)": {
+      "automerge": "0 ms",
+      "automerge-wasm": "4 ms"
+    },
+    "[B1.2] Insert string of length N (docSize)": {
+      "automerge": "3979 bytes",
+      "automerge-wasm": "3974 bytes"
+    },
+    "[B1.2] Insert string of length N (memUsed)": {
+      "automerge": "7.5 kB",
+      "automerge-wasm": "512 B"
+    },
+    "[B1.2] Insert string of length N (parseTime)": {
+      "automerge": "53 ms",
+      "automerge-wasm": "58 ms"
+    },
+    "[B1.3] Prepend N characters (time)": {
+      "automerge": "9957 ms",
+      "automerge-wasm": "136 ms"
+    },
+    "[B1.3] Prepend N characters (avgUpdateSize)": {
+      "automerge": "120 bytes",
+      "automerge-wasm": "116 bytes"
+    },
+    "[B1.3] Prepend N characters (encodeTime)": {
+      "automerge": "1 ms",
+      "automerge-wasm": "9 ms"
+    },
+    "[B1.3] Prepend N characters (docSize)": {
+      "automerge": "4000 bytes",
+      "automerge-wasm": "3988 bytes"
+    },
+    "[B1.3] Prepend N characters (memUsed)": {
+      "automerge": "8.3 kB",
+      "automerge-wasm": "7.1 kB"
+    },
+    "[B1.3] Prepend N characters (parseTime)": {
+      "automerge": "77 ms",
+      "automerge-wasm": "119 ms"
+    },
+    "[B1.4] Insert N characters at random positions (time)": {
+      "automerge": "12058 ms",
+      "automerge-wasm": "166 ms"
+    },
+    "[B1.4] Insert N characters at random positions (avgUpdateSize)": {
+      "automerge": "125 bytes",
+      "automerge-wasm": "121 bytes"
+    },
+    "[B1.4] Insert N characters at random positions (encodeTime)": {
+      "automerge": "4 ms",
+      "automerge-wasm": "12 ms"
+    },
+    "[B1.4] Insert N characters at random positions (docSize)": {
+      "automerge": "24755 bytes",
+      "automerge-wasm": "24743 bytes"
+    },
+    "[B1.4] Insert N characters at random positions (memUsed)": {
+      "automerge": "6.8 kB",
+      "automerge-wasm": "0 B"
+    },
+    "[B1.4] Insert N characters at random positions (parseTime)": {
+      "automerge": "80 ms",
+      "automerge-wasm": "105 ms"
+    },
+    "[B1.5] Insert N words at random positions (time)": {
+      "automerge": "60244 ms",
+      "automerge-wasm": "565 ms"
+    },
+    "[B1.5] Insert N words at random positions (avgUpdateSize)": {
+      "automerge": "135 bytes",
+      "automerge-wasm": "131 bytes"
+    },
+    "[B1.5] Insert N words at random positions (encodeTime)": {
+      "automerge": "15 ms",
+      "automerge-wasm": "28 ms"
+    },
+    "[B1.5] Insert N words at random positions (docSize)": {
+      "automerge": "96215 bytes",
+      "automerge-wasm": "96203 bytes"
+    },
+    "[B1.5] Insert N words at random positions (memUsed)": {
+      "automerge": "37.3 kB",
+      "automerge-wasm": "6.5 kB"
+    },
+    "[B1.5] Insert N words at random positions (parseTime)": {
+      "automerge": "120 ms",
+      "automerge-wasm": "208 ms"
+    },
+    "[B1.6] Insert string, then delete it (time)": {
+      "automerge": "125 ms",
+      "automerge-wasm": "77 ms"
+    },
+    "[B1.6] Insert string, then delete it (avgUpdateSize)": {
+      "automerge": "6351 bytes",
+      "automerge-wasm": "6338 bytes"
+    },
+    "[B1.6] Insert string, then delete it (encodeTime)": {
+      "automerge": "0 ms",
+      "automerge-wasm": "9 ms"
+    },
+    "[B1.6] Insert string, then delete it (docSize)": {
+      "automerge": "4000 bytes",
+      "automerge-wasm": "3993 bytes"
+    },
+    "[B1.6] Insert string, then delete it (memUsed)": {
+      "automerge": "1.6 kB",
+      "automerge-wasm": "536 B"
+    },
+    "[B1.6] Insert string, then delete it (parseTime)": {
+      "automerge": "52 ms",
+      "automerge-wasm": "68 ms"
+    },
+    "[B1.7] Insert/Delete strings at random positions (time)": {
+      "automerge": "26345 ms",
+      "automerge-wasm": "390 ms"
+    },
+    "[B1.7] Insert/Delete strings at random positions (avgUpdateSize)": {
+      "automerge": "139 bytes",
+      "automerge-wasm": "135 bytes"
+    },
+    "[B1.7] Insert/Delete strings at random positions (encodeTime)": {
+      "automerge": "10 ms",
+      "automerge-wasm": "28 ms"
+    },
+    "[B1.7] Insert/Delete strings at random positions (docSize)": {
+      "automerge": "59294 bytes",
+      "automerge-wasm": "59281 bytes"
+    },
+    "[B1.7] Insert/Delete strings at random positions (memUsed)": {
+      "automerge": "3.5 kB",
+      "automerge-wasm": "1.1 kB"
+    },
+    "[B1.7] Insert/Delete strings at random positions (parseTime)": {
+      "automerge": "129 ms",
+      "automerge-wasm": "151 ms"
+    },
+    "[B1.8] Append N numbers (time)": {
+      "automerge": "8339 ms",
+      "automerge-wasm": "206 ms"
+    },
+    "[B1.8] Append N numbers (avgUpdateSize)": {
+      "automerge": "129 bytes",
+      "automerge-wasm": "125 bytes"
+    },
+    "[B1.8] Append N numbers (encodeTime)": {
+      "automerge": "2 ms",
+      "automerge-wasm": "10 ms"
+    },
+    "[B1.8] Append N numbers (docSize)": {
+      "automerge": "26997 bytes",
+      "automerge-wasm": "26985 bytes"
+    },
+    "[B1.8] Append N numbers (memUsed)": {
+      "automerge": "64.9 kB",
+      "automerge-wasm": "0 B"
+    },
+    "[B1.8] Append N numbers (parseTime)": {
+      "automerge": "98 ms",
+      "automerge-wasm": "98 ms"
+    },
+    "[B1.9] Insert Array of N numbers (time)": {
+      "automerge": "165 ms",
+      "automerge-wasm": "36 ms"
+    },
+    "[B1.9] Insert Array of N numbers (avgUpdateSize)": {
+      "automerge": "31207 bytes",
+      "automerge-wasm": "31199 bytes"
+    },
+    "[B1.9] Insert Array of N numbers (encodeTime)": {
+      "automerge": "1 ms",
+      "automerge-wasm": "4 ms"
+    },
+    "[B1.9] Insert Array of N numbers (docSize)": {
+      "automerge": "26959 bytes",
+      "automerge-wasm": "26953 bytes"
+    },
+    "[B1.9] Insert Array of N numbers (memUsed)": {
+      "automerge": "60.7 kB",
+      "automerge-wasm": "63.1 kB"
+    },
+    "[B1.9] Insert Array of N numbers (parseTime)": {
+      "automerge": "56 ms",
+      "automerge-wasm": "62 ms"
+    },
+    "[B1.10] Prepend N numbers (time)": {
+      "automerge": "8004 ms",
+      "automerge-wasm": "267 ms"
+    },
+    "[B1.10] Prepend N numbers (avgUpdateSize)": {
+      "automerge": "124 bytes",
+      "automerge-wasm": "120 bytes"
+    },
+    "[B1.10] Prepend N numbers (encodeTime)": {
+      "automerge": "2 ms",
+      "automerge-wasm": "11 ms"
+    },
+    "[B1.10] Prepend N numbers (docSize)": {
+      "automerge": "27000 bytes",
+      "automerge-wasm": "26987 bytes"
+    },
+    "[B1.10] Prepend N numbers (memUsed)": {
+      "automerge": "62.9 kB",
+      "automerge-wasm": "1.2 kB"
+    },
+    "[B1.10] Prepend N numbers (parseTime)": {
+      "automerge": "104 ms",
+      "automerge-wasm": "113 ms"
+    },
+    "[B1.11] Insert N numbers at random positions (time)": {
+      "automerge": "10442 ms",
+      "automerge-wasm": "213 ms"
+    },
+    "[B1.11] Insert N numbers at random positions (avgUpdateSize)": {
+      "automerge": "129 bytes",
+      "automerge-wasm": "125 bytes"
+    },
+    "[B1.11] Insert N numbers at random positions (encodeTime)": {
+      "automerge": "4 ms",
+      "automerge-wasm": "11 ms"
+    },
+    "[B1.11] Insert N numbers at random positions (docSize)": {
+      "automerge": "47759 bytes",
+      "automerge-wasm": "47746 bytes"
+    },
+    "[B1.11] Insert N numbers at random positions (memUsed)": {
+      "automerge": "62.2 kB",
+      "automerge-wasm": "0 B"
+    },
+    "[B1.11] Insert N numbers at random positions (parseTime)": {
+      "automerge": "101 ms",
+      "automerge-wasm": "137 ms"
+    },
+    "[B2.1] Concurrently insert string of length N at index 0 (time)": {
+      "automerge": "48 ms",
+      "automerge-wasm": "73 ms"
+    },
+    "[B2.1] Concurrently insert string of length N at index 0 (updateSize)": {
+      "automerge": "9513 bytes",
+      "automerge-wasm": "9499 bytes"
+    },
+    "[B2.1] Concurrently insert string of length N at index 0 (encodeTime)": {
+      "automerge": "2 ms",
+      "automerge-wasm": "7 ms"
+    },
+    "[B2.1] Concurrently insert string of length N at index 0 (docSize)": {
+      "automerge": "8019 bytes",
+      "automerge-wasm": "8011 bytes"
+    },
+    "[B2.1] Concurrently insert string of length N at index 0 (memUsed)": {
+      "automerge": "13 kB",
+      "automerge-wasm": "176 B"
+    },
+    "[B2.1] Concurrently insert string of length N at index 0 (parseTime)": {
+      "automerge": "74 ms",
+      "automerge-wasm": "83 ms"
+    },
+    "[B2.2] Concurrently insert N characters at random positions (time)": {
+      "automerge": "632 ms",
+      "automerge-wasm": "585 ms"
+    },
+    "[B2.2] Concurrently insert N characters at random positions (updateSize)": {
+      "automerge": "27490 bytes",
+      "automerge-wasm": "1093293 bytes"
+    },
+    "[B2.2] Concurrently insert N characters at random positions (encodeTime)": {
+      "automerge": "7 ms",
+      "automerge-wasm": "23 ms"
+    },
+    "[B2.2] Concurrently insert N characters at random positions (docSize)": {
+      "automerge": "50693 bytes",
+      "automerge-wasm": "50703 bytes"
+    },
+    "[B2.2] Concurrently insert N characters at random positions (memUsed)": {
+      "automerge": "13.6 kB",
+      "automerge-wasm": "624 B"
+    },
+    "[B2.2] Concurrently insert N characters at random positions (parseTime)": {
+      "automerge": "79 ms",
+      "automerge-wasm": "174 ms"
+    },
+    "[B2.3] Concurrently insert N words at random positions (time)": {
+      "automerge": "944 ms",
+      "automerge-wasm": "1048 ms"
+    },
+    "[B2.3] Concurrently insert N words at random positions (updateSize)": {
+      "automerge": "122499 bytes",
+      "automerge-wasm": "1185202 bytes"
+    },
+    "[B2.3] Concurrently insert N words at random positions (encodeTime)": {
+      "automerge": "34 ms",
+      "automerge-wasm": "64 ms"
+    },
+    "[B2.3] Concurrently insert N words at random positions (docSize)": {
+      "automerge": "185028 bytes",
+      "automerge-wasm": "191497 bytes"
+    },
+    "[B2.3] Concurrently insert N words at random positions (memUsed)": {
+      "automerge": "73 kB",
+      "automerge-wasm": "256 B"
+    },
+    "[B2.3] Concurrently insert N words at random positions (parseTime)": {
+      "automerge": "120 ms",
+      "automerge-wasm": "409 ms"
+    },
+    "[B2.4] Concurrently insert & delete (time)": {
+      "automerge": "2347 ms",
+      "automerge-wasm": "2443 ms"
+    },
+    "[B2.4] Concurrently insert & delete (updateSize)": {
+      "automerge": "298824 bytes",
+      "automerge-wasm": "2395876 bytes"
+    },
+    "[B2.4] Concurrently insert & delete (encodeTime)": {
+      "automerge": "55 ms",
+      "automerge-wasm": "90 ms"
+    },
+    "[B2.4] Concurrently insert & delete (docSize)": {
+      "automerge": "293839 bytes",
+      "automerge-wasm": "307291 bytes"
+    },
+    "[B2.4] Concurrently insert & delete (memUsed)": {
+      "automerge": "79.3 kB",
+      "automerge-wasm": "752 B"
+    },
+    "[B2.4] Concurrently insert & delete (parseTime)": {
+      "automerge": "189 ms",
+      "automerge-wasm": "588 ms"
+    },
+    "[B3.1] 20√N clients concurrently set number in Map (time)": {
+      "automerge": "2178 ms",
+      "automerge-wasm": "40 ms"
+    },
+    "[B3.1] 20√N clients concurrently set number in Map (updateSize)": {
+      "automerge": "295616 bytes",
+      "automerge-wasm": "283296 bytes"
+    },
+    "[B3.1] 20√N clients concurrently set number in Map (encodeTime)": {
+      "automerge": "2 ms",
+      "automerge-wasm": "10 ms"
+    },
+    "[B3.1] 20√N clients concurrently set number in Map (docSize)": {
+      "automerge": "86167 bytes",
+      "automerge-wasm": "86157 bytes"
+    },
+    "[B3.1] 20√N clients concurrently set number in Map (memUsed)": {
+      "automerge": "8.9 kB",
+      "automerge-wasm": "448 B"
+    },
+    "[B3.1] 20√N clients concurrently set number in Map (parseTime)": {
+      "automerge": "57 ms",
+      "automerge-wasm": "85 ms"
+    },
+    "[B3.2] 20√N clients concurrently set Object in Map (time)": {
+      "automerge": "4278 ms",
+      "automerge-wasm": "44 ms"
+    },
+    "[B3.2] 20√N clients concurrently set Object in Map (updateSize)": {
+      "automerge": "410410 bytes",
+      "automerge-wasm": "325370 bytes"
+    },
+    "[B3.2] 20√N clients concurrently set Object in Map (encodeTime)": {
+      "automerge": "13 ms",
+      "automerge-wasm": "14 ms"
+    },
+    "[B3.2] 20√N clients concurrently set Object in Map (docSize)": {
+      "automerge": "112584 bytes",
+      "automerge-wasm": "93404 bytes"
+    },
+    "[B3.2] 20√N clients concurrently set Object in Map (memUsed)": {
+      "automerge": "2.1 kB",
+      "automerge-wasm": "1.6 kB"
+    },
+    "[B3.2] 20√N clients concurrently set Object in Map (parseTime)": {
+      "automerge": "131 ms",
+      "automerge-wasm": "92 ms"
+    },
+    "[B3.3] 20√N clients concurrently set String in Map (time)": {
+      "automerge": "4443 ms",
+      "automerge-wasm": "336 ms"
+    },
+    "[B3.3] 20√N clients concurrently set String in Map (updateSize)": {
+      "automerge": "8075760 bytes",
+      "automerge-wasm": "8063440 bytes"
+    },
+    "[B3.3] 20√N clients concurrently set String in Map (encodeTime)": {
+      "automerge": "92 ms",
+      "automerge-wasm": "99 ms"
+    },
+    "[B3.3] 20√N clients concurrently set String in Map (docSize)": {
+      "automerge": "98072 bytes",
+      "automerge-wasm": "98039 bytes"
+    },
+    "[B3.3] 20√N clients concurrently set String in Map (memUsed)": {
+      "automerge": "7.8 kB",
+      "automerge-wasm": "888 B"
+    },
+    "[B3.3] 20√N clients concurrently set String in Map (parseTime)": {
+      "automerge": "132 ms",
+      "automerge-wasm": "142 ms"
+    },
+    "[B3.4] 20√N clients concurrently insert text in Array (time)": {
+      "automerge": "4374 ms",
+      "automerge-wasm": "31 ms"
+    },
+    "[B3.4] 20√N clients concurrently insert text in Array (updateSize)": {
+      "automerge": "324690 bytes",
+      "automerge-wasm": "285330 bytes"
+    },
+    "[B3.4] 20√N clients concurrently insert text in Array (encodeTime)": {
+      "automerge": "6 ms",
+      "automerge-wasm": "4 ms"
+    },
+    "[B3.4] 20√N clients concurrently insert text in Array (docSize)": {
+      "automerge": "96457 bytes",
+      "automerge-wasm": "86524 bytes"
+    },
+    "[B3.4] 20√N clients concurrently insert text in Array (memUsed)": {
+      "automerge": "54.9 kB",
+      "automerge-wasm": "50.3 kB"
+    },
+    "[B3.4] 20√N clients concurrently insert text in Array (parseTime)": {
+      "automerge": "84 ms",
+      "automerge-wasm": "67 ms"
+    },
+    "[B3.5] 20√N clients concurrently insert text (time)": {
+      "automerge": "5346 ms",
+      "automerge-wasm": "60 ms"
+    },
+    "[B3.5] 20√N clients concurrently insert text (updateSize)": {
+      "automerge": "310340 bytes",
+      "automerge-wasm": "298020 bytes"
+    },
+    "[B3.5] 20√N clients concurrently insert text (encodeTime)": {
+      "automerge": "5 ms",
+      "automerge-wasm": "11 ms"
+    },
+    "[B3.5] 20√N clients concurrently insert text (docSize)": {
+      "automerge": "90727 bytes",
+      "automerge-wasm": "90754 bytes"
+    },
+    "[B3.5] 20√N clients concurrently insert text (memUsed)": {
+      "automerge": "5.8 kB",
+      "automerge-wasm": "208 B"
+    },
+    "[B3.5] 20√N clients concurrently insert text (parseTime)": {
+      "automerge": "69 ms",
+      "automerge-wasm": "107 ms"
+    },
+    "[B4] Apply real-world editing dataset (time)": {
+      "automerge": "60006 ms",
+      "automerge-wasm": "4966 ms"
+    },
+    "[B4] Apply real-world editing dataset (encodeTime)": {
+      "automerge": "34 ms",
+      "automerge-wasm": "429 ms"
+    },
+    "[B4] Apply real-world editing dataset (docSize)": {
+      "automerge": "129305 bytes",
+      "automerge-wasm": "129116 bytes"
+    },
+    "[B4] Apply real-world editing dataset (parseTime)": {
+      "automerge": "1973 ms",
+      "automerge-wasm": "2246 ms"
+    },
+    "[B4] Apply real-world editing dataset (memUsed)": {
+      "automerge": "0 B",
+      "automerge-wasm": "0 B"
+    }
+  }
+}
